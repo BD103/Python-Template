@@ -17,7 +17,6 @@ isort = "^5.10.1"
 flake8 = "^4.0.1"
 # Pytest is optional
 pytest = "^6.2.5"
-pytest-cov = "^3.0.0"
 
 [tool.black]
 line-length = 88
