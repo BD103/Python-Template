@@ -1,2 +1,15 @@
 run = "echo Please configure the run button"
 language = "nix"
+hidden = [
+    ".venv",
+    ".config",
+    ".caching",
+    "**/__pycache__",
+    "**/*.pyc"
+]
+
+[nix]
+channel = "stable-21_11"
+
+[env]
+LD_LIBRARY_PATH = "${PYTHON_LD_LIBRARY_PATH}:${LD_LIBRARY_PATH}"
