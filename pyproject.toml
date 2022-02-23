@@ -29,7 +29,7 @@ extend-exclude = '''
 
 [tool.isort]
 profile = "black"
-extend_skip = [".cache"]
+extend_skip = [".venv", ".cache"]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
