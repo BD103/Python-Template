@@ -3,9 +3,6 @@
         pkgs.python39Full
         pkgs.poetry
 
-        # Fixes error with Poetry
-        pkgs.python39Packages.pip
-
         pkgs.vim
         pkgs.nodePackages.prettier
     ];
