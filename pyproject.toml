@@ -2,7 +2,7 @@
 name = "pypackage"
 version = "0.1.0"
 description = "Example Python Package"
-license = "Apache-2.0"
+license = "MIT"
 authors = ["BD103 <dont@stalk.me>"]
 readme = "README.md"
 homepage = "https://bd103.github.io"
